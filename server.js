@@ -10,8 +10,8 @@ const app = express();
 // Configure CORS to accept requests from your frontend URLs
 app.use(cors({
   origin: [
-    'http://localhost:5173',  // Local development
-    'https://excel-analyzer-frontend.vercel.app'  // Replace with your Vercel domain
+    'http://localhost:5173', 
+    'https://excel-analyzer-frontend.vercel.app' 
   ],
   credentials: true
 }));
